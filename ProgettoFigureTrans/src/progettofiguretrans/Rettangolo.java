@@ -13,30 +13,24 @@ public class Rettangolo extends Quadrato {
 
   
     public Rettangolo(double x1, double y1, double b, double h)
-    {   
-        AngoloUpSx = new Punto(x1,y1);  
-        base=b;
-        altezza=h;
-    }
+    {   super(x1,y1,b);  altezza=h;  }
 
     public Rettangolo()
     { 
         this(0,0,2,1);
     }
 
-    public double perimetro() {
+    public double Perimetro() {
         return 2*(this.getBase()+this.getAltezza());
     }
 
-    public double area() {
+    public double Area() {
         return this.getBase()*this.getAltezza();
     }
     
     public String toString(){
         return super.toString()+" altezza = "+this.getAltezza();
     }
-    public String toHtml(){
-        return super.toHtml()+"<br><b>altezza = "+this.getAltezza()+"</b>";
-    }
+
 
 }

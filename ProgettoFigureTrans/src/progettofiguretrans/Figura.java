@@ -11,13 +11,8 @@ public class Figura {
         this.colore = colore;
     }
 
-
-
     public String toString(){
         return " colore = "+this.getColore();
     }
 
-    public String toHtml(){
-        return "<b>colore = "+this.getColore() + "</b>";
-    }
 }

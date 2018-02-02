@@ -74,10 +74,7 @@ public class Triangolo extends Figura
     public String toString(){
         return super.toString() +"PERIMETRO: "+this.Perimetro();
     }
-    
-    public String toHtml(){
-        return super.toHtml()+"</b><br></b>PERIMETRO: "+this.Perimetro() + "</b>";
-    }
+
     
     
 }

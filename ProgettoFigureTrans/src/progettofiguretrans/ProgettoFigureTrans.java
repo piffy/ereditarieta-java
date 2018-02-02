@@ -9,7 +9,7 @@ package progettofiguretrans;
  *
  * @author gabri_
  */
-public class ProgettoFigureOrig {
+public class ProgettoFigureTrans {
 
     /**
      * @param args the command line arguments

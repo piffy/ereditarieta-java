@@ -53,11 +53,11 @@ public class Rettangolo  {
     }
 
 
-    public double perimetro() {
+    public double Perimetro() {
         return 2*(this.getBase()+this.getAltezza());
     }
 
-    public double area() {
+    public double Area() {
         return this.getBase()*this.getAltezza();
     }
     

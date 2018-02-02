@@ -60,8 +60,4 @@ public class Quadrato{
     public String toString(){
         return " colore = "+this.getColore()+" "+this.getAngoloUpSx().toString()+" lato = "+this.getBase();
     }
-    
-    public String toHtml(){
-        return " <b>colore = "+this.getColore()+"</b><br><b> "+this.getAngoloUpSx().toString()+" lato = "+this.getBase()+" </b>";
-    } 		 
 }

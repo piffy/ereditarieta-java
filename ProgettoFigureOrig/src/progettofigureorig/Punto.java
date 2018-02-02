@@ -61,10 +61,6 @@ public class Punto{
     public String toString(){
         return "("+x+";"+y+")";
     }
-    
-    public String toHtml() {
-        return "<b>("+x+";"+y+")</b>";
-    }
 
 
  }

@@ -87,10 +87,6 @@ public class Triangolo
     public String toString(){
         return " colore = "+this.getColore()+"PERIMETRO: "+this.Perimetro();
     }
-    
-    public String toHtml(){
-        return "<b>colore = "+this.getColore()+"</b><br></b>PERIMETRO: "+this.Perimetro() + "</b>";
-    }
-    
+
     
 }

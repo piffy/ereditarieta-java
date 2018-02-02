@@ -50,8 +50,6 @@ public class Quadrato extends Figura {
     public String toString(){
         return super.toString()+this.getAngoloUpSx().toString()+" lato = "+this.getBase();
     }
-    
-    public String toHtml(){
-        return super.toHtml()+"</b><br><b> "+this.getAngoloUpSx().toString()+" lato = "+this.getBase()+" </b>";
-    } 		 
+
+
 }
