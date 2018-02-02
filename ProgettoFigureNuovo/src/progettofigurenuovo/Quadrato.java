@@ -61,6 +61,6 @@ public class Quadrato extends Figura implements Cloneable,Pubblicabile{
     }
     
     public String toHtml(){
-        return super.toHtml()+"<b> "+this.getAngoloUpSx().toString()+" lato = "+this.getBase()+" </b>";
+        return "<b>"+super.toString()+"</b><br><b>"+this.getAngoloUpSx().toString()+"</b><br></b>lato = "+this.getBase()+"</b>";
     } 		 
 }

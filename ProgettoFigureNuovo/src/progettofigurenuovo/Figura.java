@@ -9,7 +9,7 @@ package progettofigurenuovo;
  *
  * @author gabri_
  */
-public abstract class Figura  {
+public abstract class Figura {
     private String colore;
 
     public String getColore() {
@@ -34,11 +34,5 @@ public abstract class Figura  {
     public String toString(){
         return " colore = "+this.getColore();
     }
-    
-    public String toHtml(){
-        return "<b>colore = "+this.getColore() + "</b>";
-    }
-      
-    
     
 }

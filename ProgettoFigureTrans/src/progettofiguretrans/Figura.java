@@ -1,6 +1,6 @@
 package progettofiguretrans;
 
-public class Figura {
+public abstract class Figura {
     private String colore;
 
     public String getColore() {
@@ -14,5 +14,8 @@ public class Figura {
     public String toString(){
         return " colore = "+this.getColore();
     }
+
+    public abstract double Perimetro();
+    public abstract double Area();
 
 }

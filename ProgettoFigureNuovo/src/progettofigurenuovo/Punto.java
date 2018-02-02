@@ -3,7 +3,7 @@ package progettofigurenuovo;
  *
  * @author gabri
  */
-public class Punto implements Pubblicabile{
+public class Punto implements Pubblicabile,Cloneable{
     private   double x;
     private   double y;
     static final private double EPSILON=0.0000001;
